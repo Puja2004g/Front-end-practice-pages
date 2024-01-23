@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Newsletter sign-up form</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container flex">
+    <div class="content flex">
+      <div class="left">
+        <h1>Stay updated!</h1>
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        <p><img src="assets/images/icon-list.svg" alt="">Product discovery and building what matters</p>
+        <p><img src="assets/images/icon-list.svg" alt="">Measuring to ensure updates are a success</p>
+        <p><img src="assets/images/icon-list.svg" alt="">And much more!</p>
+        <h4>Email address</h4>
+        <span id="error-message" class="error-message"></span>
+        <input type="text" id="email" placeholder="email@company.com">
+        <button onclick="validateEmail()">Subscribe to monthly newsletter</button>
+      </div>
+      <div class="right"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
