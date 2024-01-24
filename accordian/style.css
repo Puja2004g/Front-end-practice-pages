@@ -1,0 +1,72 @@
+@import url('https://fonts.google.com/specimen/Work+Sans');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 221, 225);
+}
+
+.accordiam {
+    background-color: white;
+    width: 35%;
+    padding: 10px 30px;
+}
+
+.accordiam h3 button {
+    border: none;
+    background: none;
+}
+
+
+.btn1 {
+    margin-left: 1.7rem;
+}
+
+.btn2 {
+    margin-left: 14.8rem;
+}
+
+.btn3 {
+    margin-left: 1.2rem;
+}
+
+.btn4 {
+    margin-left: 22.4rem;
+}
+
+p {
+    font-family: Work Sans;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    color: hsl(292, 16%, 49%);
+    display: none;
+    animation: growDown 1s ease-in-out;
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0);
+    }
+
+    80% {
+        transform: scaleY(1.1);
+    }
+
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+@media (min-width: 370px) {
+    header {
+        background-repeat: no-repeat;
+        min-height: 20vh;
+    }
+}
