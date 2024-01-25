@@ -66,40 +66,79 @@ body {
 
 
 @media (max-width: 376px) {
-    .container{
+    .container {
         height: fit-content;
     }
 
     .content {
-      width: 90%;
-      padding: 10px;
-    }
-  
-    .content img {
-      width: 80px;
-      height: 80px; 
-      max-width: 100%;
-    }
-    
-    .content h1 {
-      font-size: 25px;
+        width: 90%;
+        padding: 10px;
     }
 
-    .content h3{
+    .content img {
+        width: 80px;
+        height: 80px;
+        max-width: 100%;
+    }
+
+    .content h1 {
+        font-size: 25px;
+    }
+
+    .content h3 {
         font-size: 20px;
     }
 
-    .content p{
+    .content p {
         font-size: 15px;
     }
-  
-    .content button { 
-      width: 90%;
-      padding: 10px;
+
+    .content button {
+        width: 90%;
+        padding: 10px;
     }
-    
-    .content button a{
+
+    .content button a {
         font-size: 15px;
     }
-    
-  }
+
+}
+
+@media (max-width: 1000px) {
+    .container {
+        height: fit-content;
+    }
+
+    .content {
+        width: 30%;
+        padding: 10px;
+    }
+
+    .content img {
+        width: 80px;
+        height: 80px;
+        max-width: 100%;
+    }
+
+    .content h1 {
+        font-size: 25px;
+    }
+
+    .content h3 {
+        font-size: 20px;
+    }
+
+    .content p {
+        font-size: 15px;
+    }
+
+    .content button {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .content button a {
+        font-size: 15px;
+    }
+
+}
