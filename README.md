@@ -3,7 +3,7 @@
 <img width="960" alt="image" src="https://github.com/Puja2004g/Front-end-practice-pages/assets/138197906/e4064eeb-02fa-485c-9d01-9d071cb364c3">
 
 # Blog preview page
-![Uploading image.png…]()
+<img width="941" alt="image" src="https://github.com/Puja2004g/Front-end-practice-pages/assets/138197906/67af1d40-f1d8-411a-a711-0ca87b04c762">
 
 # accordian
 <img width="960" alt="image" src="https://github.com/Puja2004g/Front-end-practice-pages/assets/138197906/a492e271-6efb-4a6d-9066-5a9533a07d6a">
