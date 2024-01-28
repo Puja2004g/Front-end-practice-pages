@@ -1,0 +1,120 @@
+@import url("https://fonts.google.com/specimen/Young+Serif");
+@import url("https://fonts.google.com/specimen/Outfit");
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: fit-content;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.main-content {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    background-color: hsl(0, 0%, 100%);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.title h1 {
+    font-size: 2.5rem;
+}
+
+.prep-time {
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px 15px 10px 20px;
+    border-radius: 15px;
+}
+
+.prep-time h3 {
+    color: hsl(332, 51%, 32%);
+    font-family: Young Serif, sans-serif;
+}
+
+.prep-time ul li {
+    padding-bottom: 10px;
+    color: hsl(24, 5%, 18%);
+}
+
+.prep-time ul li span {
+    font-weight: bold;
+}
+
+.ingredients {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.ingredients h1 , .instructions h1, .nutrition h1{
+    color: hsl(14, 45%, 36%);
+    font-size: 1.8rem;
+
+}
+
+.ingredients ul li {
+    padding-bottom: 13px;
+    color: hsl(24, 5%, 18%);
+}
+
+.instructions {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.instructions ol li span {
+    font-weight: bold;
+    font-family:  Young Serif, sans-serif;
+}
+
+.instructions ol li {
+    padding-bottom: 13px;
+    color: hsl(30, 10%, 34%);
+}
+
+.nutrition table th {
+    padding-right: 100px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    font-weight: normal;
+    opacity: 0.8;
+}
+
+.nutrition table {
+    border-spacing: 20px;
+    font-family: outfit, sans-serif;
+}
+
+.nutrition table td {
+    padding-left: 100px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+    color:  hsl(14, 45%, 36%)  !important;
+    font-weight: bold;
+}
+
+.nutrition table tr td,
+.nutrition table tr th {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
