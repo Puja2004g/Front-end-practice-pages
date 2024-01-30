@@ -13,3 +13,5 @@
 <img width="960" alt="image" src="https://github.com/Puja2004g/Front-end-practice-pages/assets/138197906/b664e54f-5b99-467f-86b3-1f4a9fd09b68">
 <img width="960" alt="image" src="https://github.com/Puja2004g/Front-end-practice-pages/assets/138197906/4df66d24-f37d-419d-9c3f-9abda7d40cd9">
 
+#recipe page
+![desktop-design](https://github.com/Puja2004g/Front-end-practice-pages/assets/138197906/b3342453-1d74-4486-9e8d-574f2a3fe2de)
