@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Interactive card details form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="left"></div>
+    <div class="right">
+      <div class="cardholder">
+        <label for="cardholder">Cardholder name</label>
+        <input type="text" name="cardholder" id="card-holder" placeholder="e.g. Jane Appleseed
+        " oninput="reflect('card-holder')">
+      </div>
+      <div class="cardnumber">
+        <label for="cardnumber">Card number</label>
+        <input type="text" name="cardnumber" id="card-number" placeholder="e.g. 1234 5678 9123 0000" maxlength="19" oninput="reflect('card-number')">
+      </div>
+      <div class="exp-date">
+        <label for="exp-date">Exp Date</label>
+        <input type="text" name="exp-date" id="exp-date" placeholder="MM/YY" oninput="reflect('exp-date')">
+      </div>
+      <div class="cvc">
+        <label for="cvc">cvc</label>
+        <input type="text" name="cvc" id="cvc" placeholder="e.g. 123" oninput="reflect('cvc')">
+      </div>
+      <div class="confirm">
+        <button class="confirm">Confirm</button>
+      </div>
+    </div>
+
+    <div class="card-front">
+      <span class="circle"></span>
+      <span class="hollow-circle"></span>
+      <div class="input-container">
+        <input type="text" class="Number-place" id="number-place" placeholder="0000 0000 0000 0000" maxlength="8">
+      </div>
+      <div class="details">
+        <span class="name-holder" id="name-holder">Jane Appleseed</span>
+        <input type="text" class="date" id="date" placeholder="00/00">
+      </div>
+    </div>
+    <div class="card-back">
+      <div class="cvv">
+        <input type="text" placeholder="000" id="cvc-change">
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
