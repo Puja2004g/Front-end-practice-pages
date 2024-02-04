@@ -18,3 +18,8 @@
 
 # sunnysideup agency landing page
 ![desktop-design](https://github.com/Puja2004g/Front-end-practice-pages/assets/138197906/27347c4d-4fa0-4d7f-a357-d81169961faa)
+
+# interactive card
+![desktop-design](https://github.com/Puja2004g/Front-end-practice-pages/assets/138197906/713aeca5-755f-43ef-b5b2-8a8976372bec)
+![complete-state-desktop](https://github.com/Puja2004g/Front-end-practice-pages/assets/138197906/e7f2e21c-da5c-46a7-ba94-c66db8d0c644)
+
